@@ -1,6 +1,6 @@
 <script>
     const url = location.search.match(/\?src=(.+)/)[1]
     const element = document.createElement('audio')
+    element.autoplay = true
     element.src = url
-    element.play()
 </script>
